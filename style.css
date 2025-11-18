@@ -14,7 +14,7 @@ body {
 /* Header */
 header {
   text-align: center;
-  padding: 40px 20px;
+  padding: 20px;
   background: #f5c74b; /* une couleur “chaude / rouge brique” comme pour l’aventure / solidarité */
   color: white;
 }
@@ -49,6 +49,12 @@ header {
   object-fit: cover;
   border-radius: 50%;
   border: 4px solid #f5c74b;
+}
+
+.logo img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
 }
 
 .name {
@@ -106,6 +112,12 @@ header {
 
 .highlight:hover {
   background: #07286E;
+}
+
+.sous-texte{
+  font-size: smaller;
+  max-width: 300px;
+  margin: 10px auto;
 }
 
 /* Footer */
@@ -181,7 +193,7 @@ footer {
 /* Mobile (petit) */
 @media (max-width: 480px) {
   header {
-    padding: 30px 10px;
+    padding: 5px 5px;
   }
 
   .subtitle {
@@ -189,7 +201,6 @@ footer {
   }
 
   .photos {
-    flex-direction: column;
     gap: 20px;
   }
 
