@@ -76,9 +76,12 @@ header {
 .buttons {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 50px;
   flex-wrap: wrap;
   margin-top: 20px;
+  padding: 20px;
+  width: auto;
+  margin: auto;
 }
 
 .btn {
@@ -89,6 +92,7 @@ header {
   border-radius: 8px;
   font-size: 1.1rem;
   transition: transform 0.3s, background 0.3s;
+  margin : auto;
 }
 
 .btn:hover {
@@ -101,7 +105,7 @@ header {
 }
 
 .highlight:hover {
-  background: #f5c74b;
+  background: #07286E;
 }
 
 /* Footer */
@@ -160,6 +164,7 @@ footer {
   .btn {
     font-size: 1rem;
     padding: 10px 20px;
+    margin : auto;
   }
 }
 
@@ -191,11 +196,13 @@ footer {
   .buttons {
     flex-direction: column;
     gap: 15px;
+    padding: 20px;
   }
 
   .btn {
     width: 80%;
     padding: 10px;
     font-size: 1rem;
+    margin : auto;
   }
 }
