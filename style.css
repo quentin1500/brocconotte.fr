@@ -125,9 +125,9 @@ footer {
 }
 .defi{
     text-align: center;
-    font-family: "Six Hands Web Brush"; 
-    line-height: 45px;
-    font-size: 100%;
+    font-family: "Six Hands Web Brush";
+    font-size: xx-large;
+    margin: 10px;
     box-sizing: border-box;
     color: #F9F3E3 !important;
 }
@@ -140,6 +140,16 @@ footer {
     url("https://db.onlinewebfonts.com/t/dde3fd8ec4a704fdfdd57f3ec071a01c.woff")format("woff"),
     url("https://db.onlinewebfonts.com/t/dde3fd8ec4a704fdfdd57f3ec071a01c.ttf")format("truetype"),
     url("https://db.onlinewebfonts.com/t/dde3fd8ec4a704fdfdd57f3ec071a01c.svg#Six Hands Web Brush")format("svg");
+}
+
+@font-face {
+    font-family: "Anisette-Light";
+    src: url("https://db.onlinewebfonts.com/t/b31e7990bb85d79dba6c67eaaf721d99.eot");
+    src: url("https://db.onlinewebfonts.com/t/b31e7990bb85d79dba6c67eaaf721d99.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/b31e7990bb85d79dba6c67eaaf721d99.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/b31e7990bb85d79dba6c67eaaf721d99.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/b31e7990bb85d79dba6c67eaaf721d99.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/b31e7990bb85d79dba6c67eaaf721d99.svg#Anisette-Light")format("svg");
 }
 
 /* ==================== */
