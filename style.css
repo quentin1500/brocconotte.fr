@@ -19,6 +19,11 @@ header {
   color: white;
 }
 
+.titre{
+  margin: 20px;
+  text-align: center;
+}
+
 .subtitle {
   margin-top: -10px;
   font-size: 1.2rem;
@@ -74,7 +79,7 @@ header {
 }
 
 /* Liens Boutons */
-#links {
+.links {
   text-align: center;
   padding: 40px 20px;
 }
