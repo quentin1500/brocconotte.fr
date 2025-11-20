@@ -125,6 +125,58 @@ header {
   margin: 10px auto;
 }
 
+.don-info {
+  padding: 20px 25px;
+  margin: 40px auto;
+  max-width: 800px;
+  border-radius: 8px;
+}
+
+.don-info h3 {
+  margin-top: 0;
+  font-size: larger;
+  color: #07286E;
+  text-align: center;
+}
+
+.don-info .accroche {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.exemple {
+  background: #d0d0d0ac;
+  border: 2px solid #f0d7b1;
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.exemple p {
+  margin: 6px 0;
+}
+
+.cout-reel .highlight {
+  color: #FFFFFF;
+  font-size: 1.3rem;
+}
+
+.legal {
+  margin-top: 15px;
+}
+
+.source {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.source a {
+  color: #07286E;
+  font-weight: bold;
+}
+
+
 /* Footer */
 footer {
   text-align: center;
