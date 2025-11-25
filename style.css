@@ -73,6 +73,19 @@ header {
   text-align: center;
 }
 
+.insta {
+  font-weight: 600;
+  background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+.insta:hover {
+  opacity: 0.7;
+}
+
 .objectifs {
   text-align: left;
   padding: 40px 20px;
