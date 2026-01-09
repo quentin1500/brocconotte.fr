@@ -1,7 +1,7 @@
 // Coordonnées GPS (exemple : Paris)
 const twingoLocation = {
-  lat: 47.209701,
-  lng: -1.571254
+  lat: 47.2053824,
+  lng: -1.5394686
 };
 
 // Initialisation de la carte
