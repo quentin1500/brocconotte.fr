@@ -108,6 +108,12 @@ header {
   margin: auto;
 }
 
+#map {
+  height: 400px;
+  width: 100%;
+  border-radius: 12px;
+}
+
 .btn {
   padding: 12px 25px;
   text-decoration: none;
