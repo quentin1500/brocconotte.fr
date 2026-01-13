@@ -90,85 +90,96 @@
             <li>Rallier Nantes à Marakech dans une aventure sportive épique de prêt de <b>8000 km</b> avec notre Twingo 1 <br></li>
             <li>Rassembler des fournitures scolaires, des vêtements ou des équipements médicaux, afin de les <b>distribuer directement dans les villages isolés</b> <br></li>
           </p>
-        </div>
-    </section>
-
-    <section id="twingoMap">
-      <div id="map"></div>
-      <!-- Leaflet JS -->
-      <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-      <script src="map.js"></script>
-    </section>
-
-    <section id="nous-soutenir">
-      <div class="links">
-        <h2 class="titre">Pour nous soutenir</h2>
-        <div class="buttons">
-            <div>
-              <p> Pour nous faire un don sous forme de liste de mariage</p>
-              <a href="https://www.helloasso.com/associations/brocconotte/boutiques/equipement-twingo" class="btn"><b>Boutique</b></a>
-              <p class="sous-texte"><em>Participer financièrement en achetant virtuellement les pièces nécessaires à l'équipement de la Twingo</em></p>
-            </div>
-            <div>
-              <p> Pour nous faire un don de manière classique</p>
-              <a href="https://www.helloasso.com/associations/brocconotte/formulaires/1" class="btn highlight"><b>Espace don</b></a>
-              <p class="sous-texte"><em>Participer financièrement en donnant la valeur que vous souhaitez</em></p>
-            </div>
-        </div>
-        <div class="don-info">
-          <h3>💛 Votre don vous coûte moins que vous ne le pensez</h3>
-          <p class="accroche">
-            Les dons des particuliers ouvrent droit à une <b>réduction d’impôt de 66%</b>.*
-          </p>
-          <div class="exemple">
-            <p class="montant"><b>Exemple :</b> pour un don de <b>50€</b></p>
-            <p class="reduction">Réduction d'impôt : <b>33€</b></p>
-            <p class="cout-reel">Coût réel pour vous : <span class="highlight"> seulement <b>17€</b> </span></p>
+          <div>
+            <h3>Notre itinéraire</h3>
+            <div id="itineraire"></div>
+            <!-- Leaflet JS -->
+            <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+            <script src="itineraire.js"></script>
           </div>
-          <p class="legal">
-            Notre association loi 1901 <b>Brocconotte</b>, déclarée d’intérêt général, est habilitée à délivrer des reçus fiscaux permettant cette réduction.
-          </p>
-          <p class="source">
-            Informations officielles sur 
-            <a href="https://www.economie.gouv.fr/particuliers/gerer-mon-argent/beneficier-daides-et-de-reductions-dimpots/dons-aux-associations#"
-              target="_blank"
-              rel="noopener noreferrer">
-                le site officiel du gouvernement
-                <svg style="width: 0.9em; height: 0.9em; margin-left: 4px; vertical-align: -1px;" 
-                    xmlns="http://www.w3.org/2000/svg" 
-                    viewBox="0 0 24 24" 
-                    fill="currentColor">
-                  <path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z"/>
-                  <path d="M5 5h5V3H3v7h2V5z"/>
-                  <path d="M5 19h5v2H3v-7h2v5z"/>
-                  <path d="M19 19h-5v2h7v-7h-2v5z"/>
-                </svg>
-            </a>.
-            <br>
-            * Soumis à condition.
-          </p>
         </div>
-        </div>
-    </section>
-    <section id="partenaires">
-      <div>
-        <h2 class="titre">Nos partenaires</h2>
-          <div class="photos">
-            <div class="logo">
-              <img src="assets/mac-cow-event.jpg" alt="Mad Cow">
-            </div>
-            <div class="logo">
-              <img src="assets/Logo bazarmondain_Violet_hd.jpg" alt="Bazar Mondain">
-            </div>
-            <div class="logo">
-              <img src="assets/logo ynov_hd.jpg" alt="Nantes Ynov Campus">
-            </div>
-            <div class="logo">
-              <img src="assets/Cavo_ld.jpg" alt="Cavo Nantes">
-            </div>
+      </section>
+
+      <section id="nous-soutenir">
+        <div class="links">
+          <h2 class="titre">Pour nous soutenir</h2>
+          <div class="buttons">
+              <div>
+                <p> Pour nous faire un don sous forme de liste de mariage</p>
+                <a href="https://www.helloasso.com/associations/brocconotte/boutiques/equipement-twingo" class="btn"><b>Boutique</b></a>
+                <p class="sous-texte"><em>Participer financièrement en achetant virtuellement les pièces nécessaires à l'équipement de la Twingo</em></p>
+              </div>
+              <div>
+                <p> Pour nous faire un don de manière classique</p>
+                <a href="https://www.helloasso.com/associations/brocconotte/formulaires/1" class="btn highlight"><b>Espace don</b></a>
+                <p class="sous-texte"><em>Participer financièrement en donnant la valeur que vous souhaitez</em></p>
+              </div>
           </div>
-      </div>
-    </section>
+          <div class="don-info">
+            <h3>💛 Votre don vous coûte moins que vous ne le pensez</h3>
+            <p class="accroche">
+              Les dons des particuliers ouvrent droit à une <b>réduction d’impôt de 66%</b>.*
+            </p>
+            <div class="exemple">
+              <p class="montant"><b>Exemple :</b> pour un don de <b>50€</b></p>
+              <p class="reduction">Réduction d'impôt : <b>33€</b></p>
+              <p class="cout-reel">Coût réel pour vous : <span class="highlight"> seulement <b>17€</b> </span></p>
+            </div>
+            <p class="legal">
+              Notre association loi 1901 <b>Brocconotte</b>, déclarée d’intérêt général, est habilitée à délivrer des reçus fiscaux permettant cette réduction.
+            </p>
+            <p class="source">
+              Informations officielles sur 
+              <a href="https://www.economie.gouv.fr/particuliers/gerer-mon-argent/beneficier-daides-et-de-reductions-dimpots/dons-aux-associations#"
+                target="_blank"
+                rel="noopener noreferrer">
+                  le site officiel du gouvernement
+                  <svg style="width: 0.9em; height: 0.9em; margin-left: 4px; vertical-align: -1px;" 
+                      xmlns="http://www.w3.org/2000/svg" 
+                      viewBox="0 0 24 24" 
+                      fill="currentColor">
+                    <path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z"/>
+                    <path d="M5 5h5V3H3v7h2V5z"/>
+                    <path d="M5 19h5v2H3v-7h2v5z"/>
+                    <path d="M19 19h-5v2h7v-7h-2v5z"/>
+                  </svg>
+              </a>.
+              <br>
+              * Soumis à condition.
+            </p>
+          </div>
+          </div>
+      </section>
+      
+
+      <section id="twingoMap">
+        <h2 class="titre">Localisation en direct</h2>
+        <div id="map"></div>
+        <!-- Leaflet JS -->
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+        <script src="map.js"></script>
+      </section>
+
+
+      <section id="partenaires">
+        <div>
+          <h2 class="titre">Nos partenaires</h2>
+            <div class="photos">
+              <div class="logo">
+                <img src="assets/mac-cow-event.jpg" alt="Mad Cow">
+              </div>
+              <div class="logo">
+                <img src="assets/Logo bazarmondain_Violet_hd.jpg" alt="Bazar Mondain">
+              </div>
+              <div class="logo">
+                <img src="assets/logo ynov_hd.jpg" alt="Nantes Ynov Campus">
+              </div>
+              <div class="logo">
+                <img src="assets/Cavo_ld.jpg" alt="Cavo Nantes">
+              </div>
+            </div>
+        </div>
+      </section>
     </div>
   </main>
 

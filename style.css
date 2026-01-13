@@ -111,7 +111,14 @@ header {
 #map {
   height: 400px;
   width: 100%;
-  border-radius: 12px;
+  border-radius: 20px;
+}
+
+#itineraire {
+  height: 400px;
+  width: 50%;
+  border-radius: 100%;
+  margin: 0 auto;
 }
 
 .btn {
