@@ -108,10 +108,17 @@ header {
   margin: auto;
 }
 
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgba(0, 35, 72, 0.6); }
+  70% { box-shadow: 0 0 0 10px rgba(0,122,255,0); }
+  100% { box-shadow: 0 0 0 0 rgba(0,122,255,0); }
+}
+
 #map {
   height: 400px;
   width: 100%;
   border-radius: 20px;
+  animation: pulse 2s infinite;
 }
 
 #itineraire {
@@ -202,6 +209,33 @@ header {
   font-weight: bold;
 }
 
+.sponsors-bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 80px; /* hauteur fine */
+  background: #fff;
+  overflow: hidden;
+  border-top: 1px solid #e0e0e0;
+  z-index: 1000;
+}
+
+.sponsors-track {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  gap: 40px;
+  padding-left: 40px;
+  will-change: transform;
+}
+
+.sponsors-track img {
+  height: 50px;
+  width: auto;
+  object-fit: contain;
+  user-select: none;
+  pointer-events: none;
+}
 
 /* Footer */
 footer {
