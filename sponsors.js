@@ -5,7 +5,8 @@ const sponsors = [
   'sponsor3.png',
   'sponsor4.png',
   'sponsor5.jpeg',
-  'sponsor6.png'
+  'sponsor6.png',
+  'sponsor7.png'
 ];
 
 const track = document.querySelector('.sponsors-track');
