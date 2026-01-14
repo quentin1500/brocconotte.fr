@@ -115,9 +115,9 @@ header {
 }
 
 #itineraire {
-  height: 400px;
-  width: 50%;
-  border-radius: 100%;
+  width: min(400px, 90vw);
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
   margin: 0 auto;
 }
 
