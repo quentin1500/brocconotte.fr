@@ -13,7 +13,6 @@ const track = document.querySelector('.sponsors-track');
 
 // Injection automatique des images (doublées pour boucle infinie)
 sponsors.concat(sponsors).forEach(file => {
-  console.log(file);
   const img = document.createElement('img');
   img.src = sponsorsFolder + file;
   track.appendChild(img);
