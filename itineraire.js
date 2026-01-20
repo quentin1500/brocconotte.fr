@@ -2,8 +2,8 @@
 const route = [
     [47.2184, -1.5536],   // Nantes
     [44.8333, -0.5666], // Bordeaux
-    [43.3183, -1.9812],   // Saint-Sebastien
-    [41.6523, -4.7245],   // Valladolid
+    // [43.3183, -1.9812],   // Saint-Sebastien
+    [40.9701, -5.6635],   // Salamanca
     [36.1408, -5.4562],   // Algeciras
     [35.7595, -5.8340],   // Tanger
     [32.6852, -4.7451],   // Midelt
