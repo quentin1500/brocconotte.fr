@@ -39,5 +39,5 @@ async function updateLocation() {
 }
 
 // Rafraîchissement chaque minute
-// updateLocation();
-// setInterval(updateLocation, 60000);
+updateLocation();
+setInterval(updateLocation, 60000);
