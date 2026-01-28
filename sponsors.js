@@ -4,9 +4,17 @@ const sponsors = [
   'sponsor2.jpg',
   'sponsor3.png',
   'sponsor4.png',
-  'sponsor5.jpeg',
+  'sponsor5.png',
   'sponsor6.png',
-  'sponsor7.png'
+  'sponsor7.png',
+  'sponsor8.jpg',
+  'sponsor9.png',
+  'sponsor10.png',
+  'sponsor11.png',
+  'sponsor12.png',
+  'sponsor13.png',
+  'sponsor14.jpg',
+  'sponsor15.png'
 ];
 
 const track = document.querySelector('.sponsors-track');
