@@ -77,7 +77,34 @@ header {
   transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
-.logo a img:hover {
+.logo-premium a {
+  display: inline-block;
+}
+
+.logo-premium img {
+  width: 225px;
+  height: 125px;
+  object-fit: cover;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.logo-premium a img:hover {
+  transform: scale(1.08);
+  opacity: 0.85;
+}
+
+.logo-std a {
+  display: inline-block;
+}
+
+.logo-std img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.logo-std a img:hover {
   transform: scale(1.08);
   opacity: 0.85;
 }
