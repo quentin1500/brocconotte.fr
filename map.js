@@ -18,14 +18,14 @@ L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 const twingoIcon = L.icon({
-  iconUrl: './assets/pixel_art_36x36.png',
-  iconSize: [40, 40]
+  iconUrl: './assets/pixel_art.gif',
+  iconSize: [100, 100]
 });
 
 // Marqueur twingo
 const marker = L.marker([twingoLocation.lat, twingoLocation.lng], { icon: twingoIcon })
   .addTo(map)
-  .bindPopup('🏎️ Twingo Brocconotte')
+  // .bindPopup('🏎️ Twingo Brocconotte')
   .openPopup();
 
 async function updateLocation() {
