@@ -199,6 +199,14 @@ header {
   background: #07286E;
 }
 
+.reversehighlight {
+  background: #07286E;
+}
+
+.reversehighlight:hover {
+  background: #f5c74b;
+}
+
 .sous-texte{
   font-size: smaller;
   max-width: 300px;
