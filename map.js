@@ -35,7 +35,7 @@ async function updateLocation() {
   const data = await res.json();
 
   marker.setLatLng([data.lat, data.lng]);
-  map.setView([data.lat, data.lng]);
+  map.setView([data.lat, data.lng], zoom);
 }
 
 // Rafraîchissement chaque minute
